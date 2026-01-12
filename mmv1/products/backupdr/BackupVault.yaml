@@ -208,6 +208,7 @@ properties:
   - name: 'encryptionConfig'
     type: NestedObject
     ignore_read: true
+    immutable: true
     description: 'Encryption configuration for the backup vault.'
     properties:
       - name: 'kmsKeyName'
